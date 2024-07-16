@@ -333,7 +333,7 @@ const main = async () => {
         console.log(chalk.blueBright('Menyelesaikan Misi SIGN wallet.....'));
         await misiSignWallet(walletAddress, wallet);
 
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 5; i++) {
             try {
                 console.log(chalk.blueBright('Swapping ETH for Tokens...'));
                 await swapExactETHForTokens(swapContract, walletAddress);
